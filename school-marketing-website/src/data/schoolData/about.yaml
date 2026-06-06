@@ -1,0 +1,65 @@
+# =============================================================================
+# ABOUT PAGE
+# Includes: Dean's message, school history, vision/mission/core values, timeline.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# DEAN'S MESSAGE
+# ---------------------------------------------------------------------------
+dean:
+    name: "Enter-dean_name-here"
+    title: "Dean, School of Health Sciences"
+    message: "Welcome to the School of Health Sciences. CHANGE CAPTIONS Our programs are designed to cultivate critical thinking, ethical leadership, and professional excellence. We are proud of our graduates who have made significant contributions to the business and accounting profession both locally and internationally. I invite you to be part of our community of excellence."
+
+    # HOW TO ADD THE DEAN'S PHOTO:
+    #   1. Save the photo inside the "public/images/" folder.
+    #      Ideal size: 400×400 px, square crop. Format: WebP.
+    #      Example: public/images/dean.webp
+    #   2. Set the value below to just the filename:
+    #        image: "dean.webp"
+    #   3. Leave as "" to show a placeholder silhouette icon instead.
+    image: ""
+
+# ---------------------------------------------------------------------------
+# SCHOOL HISTORY & FUTURE DIRECTION
+# ---------------------------------------------------------------------------
+about:
+    history: "The School of Business and Accountancy was established in 1982 with a vision of producing competent business and accounting professionals who would contribute to the economic development of the region and the nation. From its humble beginnings with only two programs and a handful of faculty members, the school has grown into one of the most respected academic institutions in the region, consistently producing graduates who excel in the fields of accountancy, business management, and finance."
+    future: "The School of Business and Accountancy is committed to continuously evolving its curriculum and programs to meet the demands of the rapidly changing global business environment. We envision a future where our graduates lead in the digital economy, drive sustainable business practices, and contribute to national development through ethical and innovative leadership."
+
+    # Vision, mission, and core values
+    vision: "A leading school of business and accountancy that produces globally competent, ethical, and innovative professionals who contribute to sustainable development."
+    mission: "To provide quality business and accountancy education through rigorous academic programs, industry partnerships, research, and community engagement that develop competent, ethical, and socially responsible professionals."
+
+    # Core values — each item needs a title, description, and icon name.
+    # Available icons: Star, Shield, Lightbulb, Heart, Award, BookOpen, Users, Target
+    coreValues:
+        - title: "Excellence"
+          description: "We pursue the highest standards in academic quality, professional practice, and community service."
+          icon: "Star"
+        - title: "Integrity"
+          description: "We uphold honesty, transparency, and ethical conduct in all our endeavors."
+          icon: "Shield"
+        - title: "Innovation"
+          description: "We embrace new ideas, technologies, and approaches to advance business education."
+          icon: "Lightbulb"
+        - title: "Service"
+          description: "We are committed to serving our students, institution, and the broader community."
+          icon: "Heart"
+
+    # Timeline — add or remove milestones as needed. Keep year as a 4-digit string.
+    timeline:
+        - year: "1982"
+          event: "School of Business and Accountancy founded with BSA and BSBA programs"
+        - year: "1990"
+          event: "Achieved AACCUP Level I accreditation for the BSA program"
+        - year: "1998"
+          event: "Expanded to include Management Accounting program"
+        - year: "2005"
+          event: "Launched the Master in Business Administration program"
+        - year: "2012"
+          event: "Achieved AACCUP Level IV accreditation — highest level"
+        - year: "2018"
+          event: "Recognized as CHED Center of Development for Accountancy Education"
+        - year: "2023"
+          event: "Launched digital transformation initiative for business education"

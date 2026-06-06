@@ -1,0 +1,46 @@
+# =============================================================================
+# TESTIMONIALS  (shown on the landing page)
+# =============================================================================
+
+# LAYOUT VARIANT — choose ONE:
+#
+#   cards    - Three-column grid of quote cards. Shows all testimonials.
+#              Best when you have 3–6 quotes.
+#
+#   featured - One large highlighted quote shown prominently at the top,
+#              with the remaining quotes listed in a smaller row below.
+#              Best when you want one standout story.
+#
+variant: featured
+
+# ---------------------------------------------------------------------------
+# ALUMNI TESTIMONIALS
+# ---------------------------------------------------------------------------
+# HOW TO ADD A PHOTO:
+#   1. Save the alumni photo inside the "public/images/testimonials/" folder.
+#      Ideal size: 200×200 px, square crop. Format: WebP.
+#      Example: public/images/testimonials/juan-dela-cruz.webp
+#   2. Set the image value to just the filename with subfolder:
+#        image: "testimonials/juan-dela-cruz.webp"
+#   3. Leave as "" to show a placeholder icon.
+testimonials:
+  - name: "Juan dela Cruz"
+    program: "BSA"
+    batch: "2021"
+    quote: "The rigor of the BSA program at SBA truly prepared me for the CPA board exam. The faculty's dedication and the quality of instruction gave me the confidence and skills I needed to pass on my first take."
+    image: ""
+    currentPosition: "Associate Auditor, Big 4 Firm"
+
+  - name: "Maria Santos"
+    program: "BSBA"
+    batch: "2020"
+    quote: "My BSBA education opened doors I never imagined. The business acumen and leadership skills I developed here set me apart from my peers in the industry."
+    image: ""
+    currentPosition: "Marketing Manager, Multinational Company"
+
+  - name: "Carlos Reyes"
+    program: "MBA"
+    batch: "2022"
+    quote: "The MBA program gave me the strategic thinking and management tools to lead my organization through complex challenges. A truly transformative experience."
+    image: ""
+    currentPosition: "Operations Director, Manufacturing Company"

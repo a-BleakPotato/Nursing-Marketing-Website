@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --school-primary: #1e3a5f;
+    --school-secondary: #c9a84c;
+    --school-accent: #e8f0fe;
+
+    /* Semantic text colors — light surface (default) */
+    --text-content: #111827; /* gray-900 */
+    --text-content-body: #374151; /* gray-700 */
+    --text-content-muted: #6b7280; /* gray-500 */
+    --text-content-subtle: #9ca3af; /* gray-400 */
+}
+
+/* Dark surface overrides — apply data-theme="dark" to any dark-bg container */
+[data-theme="dark"] {
+    --text-content: #ffffff;
+    --text-content-body: rgba(255, 255, 255, 0.8);
+    --text-content-muted: rgba(255, 255, 255, 0.6);
+    --text-content-subtle: rgba(255, 255, 255, 0.45);
+}
+
+@layer base {
+    * {
+        @apply box-border;
+    }
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 5rem;
+    }
+    body {
+        @apply m-0 font-sans antialiased;
+        color: var(--text-content-body);
+    }
+}
+
+@layer utilities {
+    .section-padding {
+        @apply py-16 px-4 sm:px-6 lg:px-8;
+    }
+    .container-wide {
+        @apply max-w-7xl mx-auto;
+    }
+    .section-title {
+        @apply text-3xl font-bold mb-2;
+        color: var(--text-content);
+    }
+    .section-subtitle {
+        @apply text-lg mb-10;
+        color: var(--text-content-muted);
+    }
+    .text-content {
+        color: var(--text-content);
+    }
+    .text-content-body {
+        color: var(--text-content-body);
+    }
+    .text-content-muted {
+        color: var(--text-content-muted);
+    }
+    .text-content-subtle {
+        color: var(--text-content-subtle);
+    }
+}

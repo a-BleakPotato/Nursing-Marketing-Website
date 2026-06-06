@@ -1,0 +1,45 @@
+# =============================================================================
+# INDUSTRY PARTNERS  (shown on the landing page)
+# =============================================================================
+
+# LAYOUT VARIANT — choose ONE:
+#
+#   logos-row - Partner logos displayed in a single scrolling row.
+#               Clean and minimal. Best when you have 5–10 logos.
+#
+#   cards     - Each partner shown as a card with logo, name, and category.
+#               Better for fewer partners (3–6) when you want more detail.
+#
+variant: cards
+
+# ---------------------------------------------------------------------------
+# PARTNER ORGANIZATIONS
+# ---------------------------------------------------------------------------
+# HOW TO ADD A PARTNER LOGO:
+#   1. Save the logo inside "public/images/partners/" folder.
+#      Ideal size: 200×80 px, transparent background. Format: WebP or SVG.
+#      Example: public/images/partners/sgv.webp
+#   2. Set the logo value to just the filename with subfolder:
+#        logo: "partners/sgv.webp"
+#   3. Leave as "" to show the first two letters of the partner name instead.
+partners:
+  - name: "SGV & Co. (Ernst & Young)"
+    logo: ""
+    website: ""
+    category: "Accounting Firm"
+  - name: "BDO Unibank"
+    logo: ""
+    website: ""
+    category: "Banking & Finance"
+  - name: "Philippine Stock Exchange"
+    logo: ""
+    website: ""
+    category: "Financial Markets"
+  - name: "Bureau of Internal Revenue"
+    logo: ""
+    website: ""
+    category: "Government Agency"
+  - name: "PhilCPA Foundation"
+    logo: ""
+    website: ""
+    category: "Professional Organization"

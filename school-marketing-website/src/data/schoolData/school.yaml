@@ -1,0 +1,62 @@
+# =============================================================================
+# SCHOOL BRAND IDENTITY
+# Edit this file to update the school's name, tagline, colors, and social media.
+# =============================================================================
+
+university:
+  name: "Universidad de Dagupan"
+  website: "https://udd.edu.ph"
+  address: "Arellano St., Dagupan City, Pangasinan, Philippines"
+
+school:
+  name: "School of Business and Accountancy"
+  abbreviation: "SBA"
+  slug: "sba"
+  tagline: "Superminence, Benevolence, Affluence"
+  description: "The School of Business and Accountancy is committed to producing globally competent graduates equipped with the knowledge, skills, and values needed to thrive in today's dynamic business environment."
+  primaryColor: "#FFDE42"
+  secondaryColor: "#001848"
+
+  # ---------------------------------------------------------------------------
+  # SCHOOL LOGO
+  # ---------------------------------------------------------------------------
+  # HOW TO ADD A LOGO:
+  #   1. Save your logo file inside the "public/images/" folder.
+  #      Example file path on your computer: public/images/logo.webp
+  #      Recommended: WebP with transparent background, at least 400×400 px.
+  #   2. Set the value below to just the filename (no leading slash):
+  #        logo: "logo.webp"
+  #   3. Leave it as "" (empty) to show the school name as text instead.
+  logo: ""
+
+# Social media links — paste the full URL or leave as "" to hide the icon.
+socialMedia:
+  facebook: "https://www.facebook.com/SBAUdD"
+  instagram: ""
+  twitter: ""
+  youtube: ""
+
+# ---------------------------------------------------------------------------
+# STAT HIGHLIGHTS  (shown in the Why Choose Us section on the landing page)
+# ---------------------------------------------------------------------------
+highlights:
+  - title: "Board Exam Excellence"
+    description: "Consistent top performers in the CPA Licensure Examination."
+    icon: "Trophy"
+    stat: "95%"
+    statLabel: "Average Passing Rate"
+  - title: "Industry Partners"
+    description: "Strong linkages with leading companies and accounting firms."
+    icon: "Handshake"
+    stat: "50+"
+    statLabel: "Industry Partners"
+  - title: "Years of Excellence"
+    description: "Decades of producing quality business and accounting graduates."
+    icon: "Star"
+    stat: "40+"
+    statLabel: "Years of Service"
+  - title: "Graduate Employment"
+    description: "High employment rate among graduates within 6 months of graduation."
+    icon: "Briefcase"
+    stat: "92%"
+    statLabel: "Employment Rate"

@@ -1,0 +1,37 @@
+# =============================================================================
+# HERO SECTION  (shown at the top of the landing page)
+# =============================================================================
+
+# LAYOUT VARIANT — choose ONE of the following:
+#
+#   centered    - Full-width gradient/photo background with text centered.
+#                 Best for strong brand photos that fill the whole screen.
+#
+#   split-right - Two-column layout: text on the left, image panel on the right.
+#                 Great when you have a portrait-style photo of the school or dean.
+#
+variant: split-right
+
+# ---------------------------------------------------------------------------
+# HERO IMAGE
+# ---------------------------------------------------------------------------
+# HOW TO ADD A HERO IMAGE:
+#   1. Save your photo inside the "public/images/" folder.
+#      - For "centered" variant: use a wide landscape photo (1920×1080 px or larger).
+#        Format: WebP. Keep file size under 500 KB for fast loading.
+#      - For "split-right" variant: use a portrait or square photo (800×900 px).
+#        The image will fill the right half of the screen.
+#      Example file path on your computer: public/images/hero.webp
+#   2. Set the value below to just the filename and subfolder (no leading slash):
+#        heroImage: "hero.webp"
+#   3. Leave it as "" to use a colored gradient background instead.
+heroImage: ""
+
+# Call-to-action buttons
+ctaPrimary:
+  label: "Apply Now"
+  href: "/contact"
+
+ctaSecondary:
+  label: "Explore Programs"
+  href: "#programs"

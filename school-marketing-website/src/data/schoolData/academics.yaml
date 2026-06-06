@@ -1,0 +1,113 @@
+# =============================================================================
+# ACADEMICS PAGE
+# Includes: Program information, institutional outcomes, PATHFIT, advocacy.
+# =============================================================================
+
+# PROGRAMS LAYOUT VARIANT — choose ONE:
+#
+#   accordion - Programs listed as expandable items. Great for many programs.
+#   cards     - Each program shown as a full card. Better for 2–4 programs.
+#
+programsVariant: cards
+
+# ---------------------------------------------------------------------------
+# DEGREE PROGRAMS
+# ---------------------------------------------------------------------------
+# type must be one of: undergraduate, graduate, postgraduate
+programs:
+    - name: "Bachelor of Science in Accountancy"
+      abbreviation: "BSA"
+      description: "A rigorous program preparing students for the CPA Licensure Examination and a career in public practice, industry, government, and education."
+      duration: "5 years"
+      type: "undergraduate"
+      objectives:
+          - "Produce accounting graduates who are equipped to pass the CPA Licensure Examination"
+          - "Develop professionals with strong technical accounting, auditing, and taxation skills"
+          - "Foster ethical, socially responsible accounting practitioners"
+          - "Prepare graduates for leadership roles in public practice, industry, and government"
+      outcomes:
+          - "Apply accounting standards and principles in financial reporting"
+          - "Perform audit and assurance engagements in compliance with professional standards"
+          - "Analyze and interpret financial statements for decision-making"
+          - "Demonstrate knowledge of taxation laws and their application"
+      careerOpportunities:
+          - "Certified Public Accountant (CPA)"
+          - "External / Internal Auditor"
+          - "Tax Consultant"
+          - "Financial Analyst"
+          - "Budget Officer"
+          - "Chief Financial Officer"
+
+    - name: "Bachelor of Science in Business Administration"
+      abbreviation: "BSBA"
+      description: "Develops well-rounded business professionals with specializations in Financial Management, Marketing Management, and Human Resource Management."
+      duration: "4 years"
+      type: "undergraduate"
+      objectives:
+          - "Prepare graduates for entry-level to mid-level management positions in various industries"
+          - "Develop competencies in core business functions including finance, marketing, and HRM"
+          - "Cultivate entrepreneurial mindset and business leadership skills"
+      outcomes:
+          - "Apply business principles and management theories in real-world situations"
+          - "Formulate and implement business strategies aligned with organizational goals"
+          - "Analyze market trends and consumer behavior for marketing decision-making"
+      careerOpportunities:
+          - "Business Development Manager"
+          - "Marketing Officer"
+          - "Human Resource Manager"
+          - "Sales Manager"
+          - "Entrepreneur / Business Owner"
+
+    - name: "Bachelor of Science in Management Accounting"
+      abbreviation: "BSMA"
+      description: "Equips students with accounting skills tailored for managerial decision-making and corporate governance."
+      duration: "4 years"
+      type: "undergraduate"
+      objectives:
+          - "Develop management accountants who can support strategic business decisions"
+          - "Equip students with cost accounting, budgeting, and performance management skills"
+      outcomes:
+          - "Prepare and analyze management reports for decision-making"
+          - "Design and implement cost control systems"
+          - "Apply managerial accounting tools to improve organizational efficiency"
+      careerOpportunities:
+          - "Management Accountant"
+          - "Cost Controller"
+          - "Budget Analyst"
+          - "Finance Manager"
+
+    - name: "Master in Business Administration"
+      abbreviation: "MBA"
+      description: "An advanced program for working professionals seeking to enhance their leadership and management capabilities."
+      duration: "2 years"
+      type: "graduate"
+      objectives:
+          - "Develop executive-level business leadership and strategic thinking capabilities"
+          - "Advance knowledge in organizational management, finance, and innovation"
+      outcomes:
+          - "Lead and manage organizations effectively in complex business environments"
+          - "Apply advanced business analytics and strategic management frameworks"
+      careerOpportunities:
+          - "Senior Manager / Director"
+          - "Business Consultant"
+          - "Chief Executive Officer"
+          - "Entrepreneur"
+
+# ---------------------------------------------------------------------------
+# INSTITUTIONAL LEARNING OUTCOMES
+# ---------------------------------------------------------------------------
+academics:
+    institutionalOutcomes:
+        - "Demonstrate professional and ethical competence in their chosen field"
+        - "Apply critical thinking and problem-solving skills in complex situations"
+        - "Communicate effectively in both oral and written forms"
+        - "Work collaboratively in diverse and multicultural environments"
+        - "Commit to lifelong learning and professional development"
+    outcomesCommonToAllHEIs:
+        - "Articulate and discuss the latest developments in the specific field of practice"
+        - "Effectively communicate orally and in writing using both English and Filipino"
+        - "Work effectively and independently in multi-disciplinary and multi-cultural teams"
+        - "Act in recognition of professional, social, and ethical responsibility"
+        - "Preserve and promote Filipino historical and cultural heritage"
+    pathfit: "All students are required to complete Physical Activity Towards Health and Fitness (PATHFIT) subjects as part of the general education curriculum. PATHFIT promotes active and healthy lifestyles through movement competency and fitness activities relevant to a student's professional track."
+    advocacy: "The school actively engages in advocacy for financial literacy, ethical business practices, and sustainable development. Faculty and students regularly participate in community outreach programs, free financial counseling drives, and business development workshops for micro-enterprises and cooperatives in the region."

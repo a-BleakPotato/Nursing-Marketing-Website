@@ -1,0 +1,68 @@
+# =============================================================================
+# FACULTY LIST  (shown on the Academics page)
+# =============================================================================
+
+# LAYOUT VARIANT — choose ONE:
+#
+#   grid - Circular profile photos in a 4-column grid. Clean and compact.
+#          Best when you have 4–12 faculty members.
+#
+#   list - Horizontal cards showing photo, name, title, specialization, and
+#          social links side by side. Better for fewer faculty (2–6) with more detail.
+#
+variant: grid
+
+# ---------------------------------------------------------------------------
+# FACULTY MEMBERS
+# ---------------------------------------------------------------------------
+# For each member:
+#   name        — Full name (e.g., "Prof. Jose Reyes")
+#   suffixes    — Credentials after the name (e.g., "MBA, CPA")
+#   title       — Role or position (e.g., "Program Chair, BSA")
+#   specialization — Area of expertise
+#   image       — Photo (see instructions below)
+#   socialMedia — Links to professional profiles (leave as "" to hide)
+#
+# HOW TO ADD A FACULTY PHOTO:
+#   1. Save the photo inside the "public/images/faculty/" folder.
+#      Ideal size: 400×400 px, square crop. Format: WebP.
+#      Example: public/images/faculty/jose-reyes.webp
+#   2. Set the image value to just the filename with subfolder:
+#        image: "faculty/jose-reyes.webp"
+#   3. Leave as "" to show a placeholder silhouette icon.
+faculty:
+  - name: "Prof. Jose Reyes"
+    suffixes: "MBA, CPA"
+    title: "Program Chair, BSA"
+    specialization: "Financial Accounting & Reporting"
+    image: ""
+    socialMedia:
+      facebook: ""
+      linkedin: ""
+
+  - name: "Prof. Ana Cruz"
+    suffixes: "MBA"
+    title: "Program Chair, BSBA"
+    specialization: "Business Strategy & Marketing"
+    image: ""
+    socialMedia:
+      facebook: ""
+      linkedin: ""
+
+  - name: "Dr. Ramon Dela Cruz"
+    suffixes: "PhD, CPA"
+    title: "Associate Dean"
+    specialization: "Management Accounting"
+    image: ""
+    socialMedia:
+      facebook: ""
+      linkedin: ""
+
+  - name: "Prof. Liza Gonzales"
+    suffixes: "LLB, CPA"
+    title: "Faculty Member"
+    specialization: "Taxation & Business Law"
+    image: ""
+    socialMedia:
+      facebook: ""
+      linkedin: ""

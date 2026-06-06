@@ -1,0 +1,74 @@
+# =============================================================================
+# NEWS  (shown on the News page and as a preview on the landing page)
+# =============================================================================
+
+# LAYOUT VARIANT — choose ONE:
+#
+#   featured-lead - First article shown large at the top (full-width banner),
+#                   remaining articles shown in a grid below. Best default.
+#
+#   grid          - All articles shown in equal-sized cards in a grid.
+#                   Good when no single article is more important than others.
+#
+variant: grid
+
+# ---------------------------------------------------------------------------
+# NEWS ARTICLES
+# ---------------------------------------------------------------------------
+# For each article:
+#   id      — A unique slug used in the URL. Use only lowercase letters,
+#             numbers, and hyphens. No spaces. (e.g., "sba-wins-at-olympíad")
+#   title   — Short title shown in lists and cards
+#   headline — Longer display headline shown inside the full article
+#   author  — Who wrote the article
+#   date    — Format: YYYY-MM-DD (e.g., 2024-03-10)
+#   excerpt — One or two sentence summary shown on cards
+#   story   — The full article text. Use \n\n to separate paragraphs.
+#
+# HOW TO ADD A NEWS COVER PHOTO:
+#   1. Save the photo inside "public/images/news/" folder.
+#      Ideal size: 1200×630 px (16:9 ratio). Format: WebP.
+#      Example: public/images/news/accounting-olympiad.webp
+#   2. Set the image value to just the filename with subfolder:
+#        image: "news/accounting-olympiad.webp"
+#   3. Leave as "" to show a colored placeholder.
+#
+# HOW TO ADD PHOTOS INSIDE AN ARTICLE (the photos[] list):
+#   Same steps as above — save in the same folder, then set the image path.
+#   Add a caption to describe each photo.
+news:
+  - id: "sba-tops-regional-accounting-olympiad"
+    title: "SBA Students Top Regional Accounting Competition"
+    headline: "SBA Students clinch first place at the Regional Accounting Olympics"
+    author: "SBA Communications Office"
+    date: "2024-03-10"
+    excerpt: "Students from the School of Business and Accountancy clinched first place in the Regional Accounting Olympics, showcasing their exceptional skills in financial analysis and problem-solving."
+    story: "The School of Business and Accountancy is proud to announce that its students emerged as champions in the Regional Accounting Olympics held last March 2024. The team of four students from the BS Accountancy program competed against participants from fifteen universities across the region, demonstrating exceptional skill in financial analysis, tax computation, and problem-solving.\n\nThe competition covered topics including financial reporting, taxation, and cost accounting. Our students' thorough preparation and the comprehensive training they received from SBA faculty were evident in their outstanding performance.\n\nDean Dr. Maria Santos expressed her pride in the students' achievement: 'This victory is a testament to the quality of education we provide at SBA. Our students' success in this prestigious competition reflects their hard work and the excellence of our faculty's instruction.'"
+    image: ""
+    photos:
+      - image: ""
+        caption: "SBA team receives the championship trophy"
+      - image: ""
+        caption: "Team members during the competition"
+
+  - id: "new-industry-partnership-accounting-firm"
+    title: "New Industry Partnership with Leading Accounting Firm"
+    headline: "SBA signs MOA with top accounting firm for student opportunities"
+    author: "SBA Communications Office"
+    date: "2024-02-20"
+    excerpt: "The school signed a Memorandum of Agreement with a top accounting firm for internship and employment opportunities for graduating students."
+    story: "The School of Business and Accountancy recently formalized a partnership with one of the country's leading accounting firms through a Memorandum of Agreement signing ceremony. This partnership will provide SBA students with exclusive internship placements, mentorship programs, and priority hiring considerations upon graduation.\n\nThe agreement covers a three-year period and includes provisions for joint research initiatives, faculty development programs, and curriculum enhancement to ensure SBA graduates meet industry standards."
+    image: ""
+    photos:
+      - image: ""
+        caption: "MOA signing ceremony"
+
+  - id: "sba-alumni-outstanding-cpa"
+    title: "SBA Alumni Recognized as Outstanding CPA"
+    headline: "2019 BSA Graduate awarded Outstanding CPA of the Year"
+    author: "SBA Communications Office"
+    date: "2024-01-15"
+    excerpt: "A 2019 BSA graduate was awarded the Outstanding CPA of the Year by a regional professional organization."
+    story: "The School of Business and Accountancy celebrates the recognition of one of its distinguished alumni, who was awarded the Outstanding CPA of the Year by the Regional Association of CPAs. This recognition honors professionals who have made significant contributions to the accounting profession through exemplary practice, community service, and professional development.\n\nThe awardee, a 2019 BSA graduate, currently serves as a senior partner at a regional accounting firm and has been instrumental in mentoring young accountants in the region."
+    image: ""
+    photos: []

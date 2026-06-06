@@ -1,0 +1,57 @@
+# =============================================================================
+# GALLERY & EVENTS  (shown on the landing page)
+# =============================================================================
+
+# GALLERY LAYOUT VARIANT — choose ONE:
+#
+#   masonry  - Pins of varying heights in a Pinterest-style layout.
+#              Creates visual interest when photos have different aspect ratios.
+#
+#   uniform  - All photos shown at the same size in a clean grid.
+#              Best when all your photos have similar dimensions.
+#
+variant: uniform
+
+# ---------------------------------------------------------------------------
+# PHOTO GALLERY
+# ---------------------------------------------------------------------------
+# HOW TO ADD GALLERY PHOTOS:
+#   1. Save photos inside the "public/images/gallery/" folder.
+#      Recommended size: 800×600 px (4:3 ratio) for "uniform" variant,
+#      or any size for "masonry". Format: WebP.
+#      Example: public/images/gallery/business-summit.webp
+#   2. Set the image value to just the filename with subfolder:
+#        image: "gallery/business-summit.webp"
+#   3. Leave as "" to show a placeholder with the caption as text.
+gallery:
+  - image: ""
+    caption: "Annual Business Summit 2024"
+  - image: ""
+    caption: "CPA Board Exam Review Sessions"
+  - image: ""
+    caption: "Industry Visit at SM Corporate Office"
+  - image: ""
+    caption: "SBA Recognition Night 2023"
+  - image: ""
+    caption: "Entrepreneurship Fair 2024"
+  - image: ""
+    caption: "Faculty Development Seminar"
+
+# ---------------------------------------------------------------------------
+# UPCOMING EVENTS  (shown beside the gallery)
+# ---------------------------------------------------------------------------
+# HOW TO ADD AN EVENT IMAGE:
+#   1. Save the image inside "public/images/events/" folder.
+#      Recommended size: 600×400 px. Format: WebP.
+#      Example: public/images/events/business-summit.webp
+#   2. Set the image value to just the filename with subfolder:
+#        image: "events/business-summit.webp"
+events:
+  - title: "Annual Business Summit 2024"
+    date: "2024-05-15"
+    description: "A gathering of industry leaders, faculty, and students to discuss current trends in business and accountancy."
+    image: ""
+  - title: "CPA Review Intensive Program"
+    date: "2024-06-01"
+    description: "A comprehensive review program for graduating BSA students preparing for the CPA Licensure Examination."
+    image: ""

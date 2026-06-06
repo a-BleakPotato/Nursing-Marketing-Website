@@ -1,0 +1,19 @@
+# =============================================================================
+# ADMISSIONS  (shown on the Contact page)
+# =============================================================================
+
+admissions:
+  # List every document or requirement applicants must prepare.
+  requirements:
+    - "Completed Senior High School or equivalent"
+    - "Form 138 / Report Card (Original & Photocopy)"
+    - "PSA-issued Birth Certificate"
+    - "Certificate of Good Moral Character"
+    - "2x2 and 1x1 ID Photos (4 pieces each)"
+    - "Entrance Examination and Interview"
+
+  # Period when applicants can submit their applications.
+  applicationPeriod: "March - July"
+
+  # Period when confirmed applicants officially enroll.
+  enrollmentPeriod: "July - August"
