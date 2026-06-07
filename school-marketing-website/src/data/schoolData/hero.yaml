@@ -10,7 +10,7 @@
 #   split-right - Two-column layout: text on the left, image panel on the right.
 #                 Great when you have a portrait-style photo of the school or dean.
 #
-variant: split-right
+variant: centered
 
 # ---------------------------------------------------------------------------
 # HERO IMAGE
@@ -29,9 +29,9 @@ heroImage: ""
 
 # Call-to-action buttons
 ctaPrimary:
-  label: "Apply Now"
-  href: "/contact"
+    label: "Apply Now"
+    href: "/contact"
 
 ctaSecondary:
-  label: "Explore Programs"
-  href: "#programs"
+    label: "Explore Programs"
+    href: "#programs"

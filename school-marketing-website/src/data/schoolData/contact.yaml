@@ -6,18 +6,18 @@
 # CONTACT DETAILS
 # ---------------------------------------------------------------------------
 contact:
-  email: "udd_sba@cdd.edu.ph"
-  phone: "(075) 522 2405"
-  office: "Arzadon Building, Second Floor, Faculty Room"
-  hours: "Monday - Friday, 8:00 AM - 5:00 PM"
-  address: "Arellano St., Dagupan City, Pangasinan, Philippines"
+    email: "udd_sohs@cdd.edu.ph"
+    phone: "(075) 522 2405"
+    office: "Arzadon Building, Second Floor, Faculty Room"
+    hours: "Monday - Friday, 8:00 AM - 5:00 PM"
+    address: "Arellano St., Dagupan City, Pangasinan, Philippines"
 
-  # Optional: paste a Google Maps embed URL to show a live map.
-  # How to get the URL:
-  #   1. Go to maps.google.com and search for the school's address.
-  #   2. Click "Share" → "Embed a map" → copy the src="..." URL.
-  #   3. Paste it below (remove the quotes around it):
-  mapEmbedUrl: ""
+    # Optional: paste a Google Maps embed URL to show a live map.
+    # How to get the URL:
+    #   1. Go to maps.google.com and search for the school's address.
+    #   2. Click "Share" → "Embed a map" → copy the src="..." URL.
+    #   3. Paste it below (remove the quotes around it):
+    mapEmbedUrl: ""
 
 # ---------------------------------------------------------------------------
 # ACCREDITATIONS & RECOGNITIONS
@@ -30,12 +30,12 @@ contact:
 #        logo: "accreditations/iso.webp"
 #   3. Leave as "" to show a checkmark icon instead.
 accreditations:
-  - title: "ISO 21001:2018"
-    description: "Educational Organizations Management System Certification"
-    logo: ""
-  - title: "AACCUP Level IV"
-    description: "Accreditation of Association of Christian Colleges and Universities in the Philippines"
-    logo: ""
-  - title: "CHED Center of Development"
-    description: "Recognized as a Center of Development for Accountancy Education"
-    logo: ""
+    - title: "ISO 21001:2018"
+      description: "Educational Organizations Management System Certification"
+      logo: ""
+    - title: "AACCUP Level IV"
+      description: "Accreditation of Association of Christian Colleges and Universities in the Philippines"
+      logo: ""
+    - title: "CHED Center of Development"
+      description: "Recognized as a Center of Development for Accountancy Education"
+      logo: ""

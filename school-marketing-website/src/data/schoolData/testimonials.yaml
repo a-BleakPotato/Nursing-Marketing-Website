@@ -11,7 +11,7 @@
 #              with the remaining quotes listed in a smaller row below.
 #              Best when you want one standout story.
 #
-variant: featured
+variant: cards
 
 # ---------------------------------------------------------------------------
 # ALUMNI TESTIMONIALS
@@ -24,23 +24,23 @@ variant: featured
 #        image: "testimonials/juan-dela-cruz.webp"
 #   3. Leave as "" to show a placeholder icon.
 testimonials:
-  - name: "Juan dela Cruz"
-    program: "BSA"
-    batch: "2021"
-    quote: "The rigor of the BSA program at SBA truly prepared me for the CPA board exam. The faculty's dedication and the quality of instruction gave me the confidence and skills I needed to pass on my first take."
-    image: ""
-    currentPosition: "Associate Auditor, Big 4 Firm"
+    - name: "Juan dela Cruz"
+      program: "BSA"
+      batch: "2021"
+      quote: "The rigor of the BSA program at SBA truly prepared me for the CPA board exam. The faculty's dedication and the quality of instruction gave me the confidence and skills I needed to pass on my first take."
+      image: ""
+      currentPosition: "Associate Auditor, Big 4 Firm"
 
-  - name: "Maria Santos"
-    program: "BSBA"
-    batch: "2020"
-    quote: "My BSBA education opened doors I never imagined. The business acumen and leadership skills I developed here set me apart from my peers in the industry."
-    image: ""
-    currentPosition: "Marketing Manager, Multinational Company"
+    - name: "Maria Santos"
+      program: "BSBA"
+      batch: "2020"
+      quote: "My BSBA education opened doors I never imagined. The business acumen and leadership skills I developed here set me apart from my peers in the industry."
+      image: ""
+      currentPosition: "Marketing Manager, Multinational Company"
 
-  - name: "Carlos Reyes"
-    program: "MBA"
-    batch: "2022"
-    quote: "The MBA program gave me the strategic thinking and management tools to lead my organization through complex challenges. A truly transformative experience."
-    image: ""
-    currentPosition: "Operations Director, Manufacturing Company"
+    - name: "Carlos Reyes"
+      program: "MBA"
+      batch: "2022"
+      quote: "The MBA program gave me the strategic thinking and management tools to lead my organization through complex challenges. A truly transformative experience."
+      image: ""
+      currentPosition: "Operations Director, Manufacturing Company"
